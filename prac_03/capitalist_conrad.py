@@ -15,6 +15,7 @@ MIN_PRICE = 1.0
 MAX_PRICE = 100.0
 INITIAL_PRICE = 10.0
 FILENAME = "capitalist_conrad.txt"
+out_file = open(FILENAME, "w")
 price = INITIAL_PRICE
 number_of_days = 0
 print(f"Starting price: ${price:,.2f}")
