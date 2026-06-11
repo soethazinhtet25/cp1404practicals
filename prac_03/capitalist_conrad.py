@@ -18,7 +18,7 @@ FILENAME = "capitalist_conrad.txt"
 out_file = open(FILENAME, "w")
 price = INITIAL_PRICE
 number_of_days = 0
-print(f"Starting price: ${price:,.2f}")
+print(f"Starting price: ${price:,.2f}", file=out_file)
 
 while MIN_PRICE <= price <= MAX_PRICE:
     number_of_days += 1
