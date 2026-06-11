@@ -14,7 +14,7 @@ MAX_DECREASE = 0.05  # 5%
 MIN_PRICE = 1.0
 MAX_PRICE = 100.0
 INITIAL_PRICE = 10.0
-
+FILENAME = "capitalist_conrad.txt"
 price = INITIAL_PRICE
 number_of_days = 0
 print(f"Starting price: ${price:,.2f}")
@@ -35,3 +35,4 @@ while MIN_PRICE <= price <= MAX_PRICE:
 
     price *= (1 + price_change)
     print(f"On day {number_of_days} price is: ${price:,.2f}")
+
