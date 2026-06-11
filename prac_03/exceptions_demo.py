@@ -21,3 +21,4 @@ except ZeroDivisionError:
 print("Finished.")
 # 1. A ValueError occurs when the numerator or denominator contains letters or other invalid characters.
 # 2. A ZeroDivisionError occurs when a number is divided by 0.
+# 3. Yes. We can use an if statement to check if the denominator is 0 before dividing.
