@@ -20,6 +20,7 @@ number_of_days = 0
 print(f"Starting price: ${price:,.2f}")
 
 while MIN_PRICE <= price <= MAX_PRICE:
+    number_of_days += 1
     price_change = 0
     # generate a random integer of 1 or 2
     # if it's 1, the price increases, otherwise it decreases
