@@ -11,8 +11,15 @@
 # in_file.close()
 
 # 3.
-with open("numbers.txt", "r") as in_file:
-    first_number = int(in_file.readline())
-    second_number = int(in_file.readline())
+# with open("numbers.txt", "r") as in_file:
+#     first_number = int(in_file.readline())
+#     second_number = int(in_file.readline())
+#
+# print(first_number + second_number)
 
-print(first_number + second_number)
+# 4.
+total = 0
+with open("numbers.txt", "r") as in_file:
+    for line in in_file:
+        total += int(line)
+print(total)
